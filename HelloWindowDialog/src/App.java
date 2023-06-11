@@ -13,7 +13,7 @@ public class App extends JFrame {
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_SPACE) {
-                    JOptionPane.showMessageDialog(App.this, "Меня зовут ChatGPT");
+                    JOptionPane.showMessageDialog(App.this, "Ваше имя");
                 }
             }
         });
